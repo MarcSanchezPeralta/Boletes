@@ -1,0 +1,17 @@
+En aquet programa farem aparèixer una pilota de esquerra a dreta infinita.
+
+int dreta = (0) ;
+void setup(){
+  size(500,200);
+}
+
+void draw(){
+  background(255);
+  dreta = dreta + 1;
+  if (dreta > 500) {
+    dreta = 0 ;
+  }
+  noStroke();
+  fill(255,0,0);
+  ellipse(dreta,100,50,50) ;
+}
