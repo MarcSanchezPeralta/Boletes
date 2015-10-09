@@ -1,0 +1,7 @@
+En aquet programa posarem un text en el la pantalla. 
+
+size(300,300) ;
+background(0);
+textSize(50) ;
+text("Hola", 150, 150);
+fill(0,100,0);
