@@ -1,0 +1,16 @@
+En aquest programa utilitzarem variables per a base de clicar a el ratolí sumar punts a un marcador.
+
+int punts = 0;
+void setup() {
+size(500,500);
+}
+void draw (){
+  background(100);
+  textSize(50);
+  fill(0);
+  text("Score" + punts, 250,150);}
+  
+  void mouseClicked (){
+    if( punts == punts){
+      punts= punts+1;}
+  }
